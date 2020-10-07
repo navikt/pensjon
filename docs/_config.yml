@@ -1,5 +1,5 @@
-name: Digitale tjenester til arbeidsgivere
-title: Digitale tjenester til arbeidsgivere
-description: Med hjerte for inkludering, kode og kvalitet
+name: NAV Pensjon
+title: NAV Pensjon
+description: NAV Pensjon
 theme: jekyll-theme-slate
-baseurl: /arbeidsgiver
+baseurl: /pensjon
