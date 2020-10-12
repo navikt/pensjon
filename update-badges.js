@@ -3,12 +3,9 @@ const octokit = require('./src/octokit');
 
 const run = async (org, teamSlug) => {
   try {
-    const team = await octokit.teams.getByName({
+    const members = await octokit.teams.listMembersInOrg({
       org: org,
-      team_slug: teamSlug,
-    });
-    const members = await octokit.teams.listMembers({
-      team_id: team.data.id,
+      team_slug: teamSlug
     });
     const badges = [];
     members.data.forEach(member => {
@@ -19,7 +16,6 @@ const run = async (org, teamSlug) => {
   } catch (e) {
     console.error(e);
   }
-
 };
 
-run('navikt', 'pensjon');
+run('navikt', 'teampensjon');
