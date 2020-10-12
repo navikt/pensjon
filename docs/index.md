@@ -102,13 +102,13 @@ Vi bygger koden vår på [CircleCI] og deployer derfra. Vi er ikke låst til
 dette flere av applikasjonene våre blir nå bygget på [Github Actions].
 
 
-## Kontakt2
+## Kontakt
 Hvis du lurer på noe ang. området ta gjerne kontakt med [Hafsa] eller
 [Tina]. Eller kanskje du kjenner noen andre som jobber hos oss?
 Moderniseringen av velferdsstaten går i en rivende fart og vi
 jobber hver dag for å bygge [det som betyr noe].
 
-{% include generated-members.md %}
+
 
 [CircleCI]: https://circleci.com/
 [det som betyr noe]: https://www.detsombetyrnoe.no
