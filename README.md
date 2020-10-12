@@ -47,5 +47,4 @@ Make sure .netrc file containing the following is located in env.HOME path
 
 Run
 
-    node ./update-badges.js
-    node ./update-repos.js
+    npm run update
