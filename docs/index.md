@@ -1,12 +1,11 @@
 ---
-title: Produktområde arbeidsgiver i Nav
+title: Produktområde pensjon i Nav
 vimeoId: 373391229
 ---
 {% include header-scripts.html %}
 
-## Produktområde arbeidsgiver i Nav
-Området er fordelt på fem autonome produktteam som har ansvaret for sine
-deler av flatene mot arbeidsgiver:
+## Produktområde pensjon i Nav
+Området er fordelt på 10 produktteam som jobber med med løsningene for alderspensjon og uføretrygd:
 
 * Inkluderende Arbeidsliv
 * Rekruttering av personer med nedsatt funksjonsevne
