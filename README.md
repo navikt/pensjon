@@ -37,12 +37,15 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 ### Updating generated MD files
-Make sure a .netrc in the following format is located in your ENV.home path
-`
-machine api.github.com
-login {EMAIL}
-password {TOKEN}`
+To update the generated markdown files containing the team's repos and members do the following:
+
+Make sure .netrc file containing the following is located in env.HOME path
+
+    machine api.github.com
+    login {EMAIL}
+    password {TOKEN}
 
 Run
-`node ./update-badges.js`
-`node ./update-repos.js`
+
+    node ./update-badges.js
+    node ./update-repos.js
