@@ -19,20 +19,19 @@ Området er fordelt på 10 produktteam som jobber med med løsningene for [alder
 * Selvbetjening - jobber med selvbetjeningsapplikasjonene [din pensjon] og 
 
 Arbeidet ble startet i 2006 i forbindelse med [pensjonsreformen], og 
-utvidet med løsninger for uføretrygd i 2015 som en del av [uførereformen]. Men har
+utvidet med løsninger for uføretrygd i 2015 som en del av [uførereformen]. Pensjon har
 gått inn som en permanent del av produktområdestrukturen i Nav fra
-juni 2020 og blir en viktig del av hvordan Navs digitalisering i
-fremtiden.
+juni 2020 og er en viktig del av NAV og velferdsstaten.
 
 ### Organisasjonen blir stadig smidigere
 Nav har har gått fra å være kjent for sine store IT-fiaskoer til å bli
 ansett av mange som en av de plassene det skjer i Norsk IT-bransje. Vi
 liker å tro at det er på grunn av den kursen vi har satt. Innenfor
-arbeidsgiverområdet prøver vi så godt det lar seg gjøre å leve opp til
+pensjonsområdet prøver vi så godt det lar seg gjøre å leve opp til
 denne visjonen igjennom:
 
-1. Moderne organisering (smidige produktteam, istedenfor prosjekter)
-2. Moderne teknologi (kontinuerlig deployment med Docker + Kubernetes, mikrotjenester, hendelsesdrevet)
+1. Fremtidsrettet organisering (smidige produktteam, istedenfor prosjekter)
+2. Fremtidsrettet teknologi (kontinuerlig deployment med Docker + Kubernetes, mikrotjenester, hendelsesdrevet)
 3. Ansvarlig bruk av de dataene vi har tilgjengelig
 4. Ett klart samfunnsoppdrag som både er lett å forstå og lett å måle
 
