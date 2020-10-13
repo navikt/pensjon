@@ -54,8 +54,8 @@ flere som ønsker å jobbe for at Nav får eierskap i egne applikasjoner og syst
 I disse dager så jobber vi som de fleste andre i Oslo-området på hjemmekontor.  
 Vi ser at dette er en arbeidsform som fungerer veldig bra for mange, og kommer nok i 
 stor grad også til å fortsette med dette etter at pandemenien har gitt seg. 
-Vi har kontorer i [Sannergata 2] øverst på Grunerløkka med kortvei til verdens beste 
-kaffe og en rekke vannhull. 
+Vi har kontorer i [Sannergata 2] øverst på Grunerløkka med kort vei til [verdens beste 
+kaffe] og en rekke vannhull. 
 
 ## Utvikleropplevelse
 Utvikleropplevelse har fokus, noe som gjenspeiler at Nav satser på IT i betydningen at in-house IT-utvikling
@@ -107,8 +107,8 @@ dette flere av applikasjonene våre blir nå bygget på [Github Actions].
 
 
 ## Kontakt
-Hvis du lurer på noe ang. området ta gjerne kontakt med [Hafsa] eller
-[Tina]. Eller kanskje du kjenner noen andre som jobber hos oss?
+Hvis du lurer på noe ang. området ta gjerne kontakt med [Kjersti] eller
+[Erik]. Eller kanskje du kjenner noen andre som jobber hos oss?
 Moderniseringen av velferdsstaten går i en rivende fart og vi
 jobber hver dag for å bygge [det som betyr noe].
 
@@ -141,4 +141,6 @@ jobber hver dag for å bygge [det som betyr noe].
 [pensjonsreformen]: https://www.regjeringen.no/no/tema/pensjon-trygd-og-sosiale-tjenester/pensjonsreform/id86731/
 [uførereformen]: https://no.wikipedia.org/wiki/Uf%C3%B8rereformen
 [Sannergata 2]:  https://www.google.com/maps/place/Sannergata+2,+0557+Oslo/@59.9285629,10.7562752,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e6ea94f8e0b:0x3d9627259cdc1e31!8m2!3d59.9285629!4d10.7584639
-
+[verdens beste kaffe]: https://www.instagram.com/explore/locations/66107785/supreme-roastworks/?hl=nb
+[Kjersti]: mailto:kjersti.monland@nav.no
+[Erik]: mailto:erik.haug@nav.no
