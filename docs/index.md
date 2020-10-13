@@ -36,7 +36,7 @@ denne visjonen igjennom:
 4. Ett klart samfunnsoppdrag som både er lett å forstå og lett å måle
 
 Se hvordan IT-utviklingen i NAV har satt kursen i retning fra tungrodde og
-kostbare IT-systemer til smidige løsninger: <https://memu.no/video/slik-loser-nav-it-floken/>
+kostbare IT-systemer til smidige løsninger: <https://memu.no/artikler/it-losninger-i-rekordfart-hadde-ikke-gatt-for-to-ar-siden/>
 
 ### Hvem er vi?
 Teamene har en tverrfaglig sammensetning med av domeneeksperter, designere,
@@ -111,7 +111,7 @@ jobber hver dag for å bygge [det som betyr noe].
 [open source]: https://github.com/navikt/offentlig/blob/master/OpenSource.md
 [Kubernetes]: https://kubernetes.io/
 [NAIS]: https://nais.io/
-[NAV løser IT-flokene]: https://memu.no/video/slik-loser-nav-it-floken/
+[NAV løser IT-flokene]: https://memu.no/artikler/it-losninger-i-rekordfart-hadde-ikke-gatt-for-to-ar-siden/
 [NAVs designsystem]: https://design.nav.no/
 [Postgresql]: https://www.postgresql.org
 [React]: https://reactjs.org/
