@@ -5,17 +5,23 @@ vimeoId: 373391229
 {% include header-scripts.html %}
 
 ## Produktområde pensjon i Nav
-Området er fordelt på 10 produktteam som jobber med med løsningene for [alderspensjon] og uføretrygd:
+Området er fordelt på 10 produktteam som jobber med med løsningene for [alderspensjon] og [uføretrygd]:
 
-* Inkluderende Arbeidsliv
-* Rekruttering av personer med nedsatt funksjonsevne
-* Innloggede sider for Arbeidsgivere
-* Tiltaksgjennomføring
-* Dialog og relasjon (CRM)
+* Paraply PDL - ta i bruk den nye [persondataløsningen] på pensjonsområdet
+* Pensak Batch - utvikling og drift av automatiske jobber
+* EESSI Pensjon - forvalter og videreutvikler løsninger for støtte til saksbehandling av pensjon- og uføresaker med EØS-knytning
+* Pensjonsbrev - ansvar for informasjon til brukerne via analog og digital post
+* Pentek - teknisk modernisering av eksiterende legacy applikasjon, herunder overgang til [NAIS]
+* Pensak Ohana og Pensak Kjerne - leverer ny funksjonalitet ved lovendringer, forbedrer mangler, jobber med teknisk modernisering og retter feil fra produksjon for saksbehandlingsløsningen
+* PenRegler - jobber med regelimplementasjon for alderspensjon og uføretrygd, skriver om regelmotor fra [Blaze Advisor] til [Kotlin]
+* Supplerende stønad - innføre nye regler og systemløsning for [supplerende stønad til uføre flyktninger]
+* Samhandling - utvikler og forvalter tjenester mellom NAV, [tjenestepensjonsordninger] og andre eksterne samhandlere
+* Selvbetjening - jobber med selvbetjeningsapplikasjonene [din pensjon] og 
 
-Arbeidet ble startet i august 2018 som et tradisjonelt prosjekt. Men har
+Arbeidet ble startet i 2006 i forbindelse med [pensjonsreformen], og 
+utvidet med løsninger for uføretrygd i 2015 som en del av [uførereformen]. Men har
 gått inn som en permanent del av produktområdestrukturen i Nav fra
-januar 2020 og blir en viktig del av hvordan Navs digitalisering i
+juni 2020 og blir en viktig del av hvordan Navs digitalisering i
 fremtiden.
 
 ### Organisasjonen blir stadig smidigere
@@ -38,22 +44,18 @@ Teamene har en tverrfaglig sammensetning med av domeneeksperter, designere,
 utviklere og produkteiere. Rundt teamene har vi ett støtteapparat som sørger
 for økonomi, kommunikasjon og andre funksjoner for å supportere produktteamene.
 
-<div id="chart-roller"></div>
-
 Vi er en god blanding av folk med forskjellig bakgrunn, alder og kjønn.
 
-<div id="chart-kjonn2"></div>
-
-Vi har en blanding av innleide konsulenter og Nav-ansatte. Av de 21 utviklerne våre, er 7 in-house, og det
+Vi har en blanding av innleide konsulenter og Nav-ansatte. Av de 57 utviklerne våre, er 25 in-house, og det
 blir stadig vekk flere. Vi rekrutterer i disse dager flere utviklere direkte til området og håper å finne
 flere som ønsker å jobbe for at Nav får eierskap i egne applikasjoner og systemer.
 
 ### Kontorlokaler
-Vi er plassert i [de gamle lokalene til Opera Software og Trolltech] i
-[Waldemar Thranes gate 98]. Her disponerer vi ca. 120 kvm og sitter godt
-skjermet i en egen fløy i 5 etg. Vi har en mix av åpne landskap og stillerom.
-I August 2020 flytter vi sammen med resten av Direktoratet til splitter
-nye og moderne lokaler på [Fyrstikkalléen 1 på Helsfyr].
+I disse dager så jobber vi som de fleste andre i Oslo-området på hjemmekontor.  
+Vi ser at dette er en arbeidsform som fungerer veldig bra for mange, og kommer nok i 
+stor grad også til å fortsette med dette etter at pandemenien har gitt seg. 
+Vi har kontorer i [Sannergata 2] øverst på Grunerløkka med kortvei til verdens beste 
+kaffe og en rekke vannhull. 
 
 ## Utvikleropplevelse
 Utvikleropplevelse har fokus, noe som gjenspeiler at Nav satser på IT i betydningen at in-house IT-utvikling
@@ -66,8 +68,8 @@ utvikling. Enten det måtte være [Visual Studio Code], [IntelliJ] eller [Eclips
 en fullgod opplevelse også her.
 
 ### Kildekode
-Ny programkode i Nav er som default [open source] og ligger på Github. Lukkede repositories brukes bare
-unntaksvis, basert på en vurdering av teamet selv. I området har vi følgende åpne repositories:
+Ny programkode i Nav er som default [open source] og ligger på Github. Vi har fortsatt en del lukkede repositories, men er i ferd med 
+å åpne opp disse. I området har vi følgende åpne repositories:
 
 {% include generated-repos.md %}
 
@@ -92,13 +94,15 @@ til å dekoble applikasjonene våre når det er naturlig. Dette er spesielt fint
 på tvers av produkter i Nav.
 
 ### Bygg og deploy
-Vi deployer kontinuerlig. Teamet drifter all kode som vi skriver.
+Vi er i ferd med å legge over til kontinuerlige leveranser for alle applikasjoner på området. 
+Teamene drifter all kode som vi skriver.
 
-Applikasjonene våre deployes til [NAIS] som er Navs plattform for å kjøre Docker-kontainere med
+Vi har noen applikasjoner som kjører på gamle plattformer slik som WAS, men er i ferd med å migrere 
+disse til [NAIS] som er Navs plattform for å kjøre Docker-kontainere med
 [Kubernetes]. Her har vi tilgang til en moderne stack med monitoreringsverktøy og debuggingverktøy.
-Ganske behagelig egentlig. 😃
+Alle nye applikasjoner kjører selvfølgelig på [NAIS]. 
 
-Vi bygger koden vår på [CircleCI] og deployer derfra. Vi er ikke låst til
+Vi bygger koden vår på Jenkins og deployer derfra. Vi er ikke låst til
 dette flere av applikasjonene våre blir nå bygget på [Github Actions].
 
 
@@ -110,12 +114,9 @@ jobber hver dag for å bygge [det som betyr noe].
 
 {% include generated-members.md %}
 
-[CircleCI]: https://circleci.com/
 [det som betyr noe]: https://www.detsombetyrnoe.no
 [Eclipse]: https://www.eclipse.org/
-[Fyrstikkalléen 1 på Helsfyr]: https://goo.gl/maps/syFqtFSf4RfYFZpn7
 [Github Actions]: https://github.com/features/actions
-[Hafsa]: mailto:hafsa.elkam@nav.no
 [IntelliJ]: https://www.jetbrains.com/idea/
 [Kafka]: https://kafka.apache.org/
 [open source]: https://github.com/navikt/offentlig/blob/master/OpenSource.md
@@ -126,10 +127,18 @@ jobber hver dag for å bygge [det som betyr noe].
 [Postgresql]: https://www.postgresql.org
 [React]: https://reactjs.org/
 [Spring Boot]: https://spring.io/projects/spring-boot
-[Tina]: mailto:tina.krekke@nav.no
 [TypeScript]: https://www.typescriptlang.org/
 [Visual Studio Code]: https://code.visualstudio.com/
-[de gamle lokalene til Opera Software og Trolltech]: https://www.digi.no/artikler/opera-og-trolltech-hedret-med-historisk-blatt-skilt-her-hadde-vi-noen-av-de-beste-arene-i-vare-liv/476625
-[Waldemar Thranes gate 98]: https://goo.gl/maps/fipkD2fDP4yV53vX7
 [alderspensjon]:https://www.nav.no/no/person/pensjon/alderspensjon
+[uføretrygd]: https://www.nav.no/no/person/pensjon/uforetrygd
+[persondataløsningen]: https://navikt.github.io/pdl/
+[Blaze Advisor]: https://www.fico.com/en/products/fico-blaze-advisor-decision-rules-management-system
+[Kotlin]: https://kotlinlang.org/
+[supplerende stønad til uføre flyktninger]: https://www.regjeringen.no/no/dokumenter/prop.-10-l-20192020/id2676058/?ch=7
+[tjenestepensjonsordninger]: https://www.nav.no/no/person/pensjon/andre-pensjonsordninger/tjenestepensjon
+[din pensjon]: https://www.nav.no/no/person/pensjon/hva-kan-jeg-fa-i-pensjon
+[din uføretrygd]: https://www.nav.no/soknader/nb/person/helse/uforetrygd
+[pensjonsreformen]: https://www.regjeringen.no/no/tema/pensjon-trygd-og-sosiale-tjenester/pensjonsreform/id86731/
+[uførereformen]: https://no.wikipedia.org/wiki/Uf%C3%B8rereformen
+[Sannergata 2]:  https://www.google.com/maps/place/Sannergata+2,+0557+Oslo/@59.9285629,10.7562752,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e6ea94f8e0b:0x3d9627259cdc1e31!8m2!3d59.9285629!4d10.7584639
 
