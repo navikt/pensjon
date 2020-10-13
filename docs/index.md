@@ -79,19 +79,9 @@ Ved første øyekast kan det se litt rart ut med kildekode med norske begreper b
 vant til det.
 
 ### Programmeringsspråk
-Vi skriver all frontend-code i [React] og fortrinnsvis med [TypeScript]. På backend har Nav hittil brukt
-Java med Spring ([Spring Boot]), men nå er det god stemning for å prøve Kotlin istedenfor. Vi ønsker også
-å bruke lettvektsløsninger, men det er det opp til teamene å avgjøre. Infrastrukturen er fleksibel og
-vi har stor frihet til å velge det som er best for å få løst oppgaven. Det er likevel viktig at
-teamene i Nav ikke glir for langt fra hverandre, derfor er det noen føringer på hovedtrekk av teknologi.
-Vi har også ting som [NAVs designsystem] som skal hjelpe oss til å ikke sprike for mye mellom teamene.
-
-For datalagring har vi [Postgresql] som i hovedsak ligger til bunn for de nye applikasjonene vi lager.
-Vi har arvet to applikasjoner som ikke er oppgradert enda, men det er en del av det vi må forholde oss
-til. Det arbeides med å få disse modernisert. Andre lagringsteknologier blir sporadisk brukt på ulike
-team i Nav. For asynkrone operasjoner har vi også en sentral [Kafka]-rigg som gir oss gode muligheter
-til å dekoble applikasjonene våre når det er naturlig. Dette er spesielt fint når vi skal kommunisere
-på tvers av produkter i Nav.
+Teknisk sett er det Java og Kotlin som regjerer på serversiden. Det som skjer i nettleseren er JavaScript 
+med blant annet React. Vårt mål er å kommunisere via Apache Kafka og REST, men det er fortsatt noen spor etter gammel teknologi.
+Vi monitorerer metrikker via Prometheus og nyter synet av dem i Grafana. 
 
 ### Bygg og deploy
 Vi er i ferd med å legge over til kontinuerlige leveranser for alle applikasjoner på området. 
