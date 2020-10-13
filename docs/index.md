@@ -4,7 +4,7 @@ vimeoId: 373391229
 ---
 {% include header-scripts.html %}
 
-## Produktområde pensjon i Nav
+## Produktområde Pensjon i Nav
 Området er fordelt på 10 produktteam som jobber med med løsningene for [alderspensjon] og [uføretrygd]:
 
 * Paraply PDL - ta i bruk den nye [persondataløsningen] på pensjonsområdet
