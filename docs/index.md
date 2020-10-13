@@ -5,7 +5,7 @@ vimeoId: 373391229
 {% include header-scripts.html %}
 
 ## Produktområde pensjon i Nav
-Området er fordelt på 10 produktteam som jobber med med løsningene for alderspensjon og uføretrygd:
+Området er fordelt på 10 produktteam som jobber med med løsningene for [alderspensjon] og uføretrygd:
 
 * Inkluderende Arbeidsliv
 * Rekruttering av personer med nedsatt funksjonsevne
@@ -131,4 +131,5 @@ jobber hver dag for å bygge [det som betyr noe].
 [Visual Studio Code]: https://code.visualstudio.com/
 [de gamle lokalene til Opera Software og Trolltech]: https://www.digi.no/artikler/opera-og-trolltech-hedret-med-historisk-blatt-skilt-her-hadde-vi-noen-av-de-beste-arene-i-vare-liv/476625
 [Waldemar Thranes gate 98]: https://goo.gl/maps/fipkD2fDP4yV53vX7
+[alderspensjon]:https://www.nav.no/no/person/pensjon/alderspensjon
 
