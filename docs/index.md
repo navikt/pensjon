@@ -4,7 +4,7 @@ vimeoId: 373391229
 ---
 {% include header-scripts.html %}
 
-## Produktområde Pensjon i NAV
+## Produktområde Pensjon i Nav
 Området er fordelt på 10 produktteam som jobber med med løsningene for [alderspensjon] og [uføretrygd]:
 
 * Paraply PDL - ta i bruk den nye [persondataløsningen] på pensjonsområdet
@@ -58,17 +58,17 @@ kaffe] og en rekke vannhull.
 
 ## Utvikleropplevelse
 Utvikleropplevelse har fokus, noe som gjenspeiler at Nav satser på IT i betydningen at in-house IT-utvikling
-er helt essensielt for de endrignene som Nav skal gjennom de neste åra.
+er helt essensielt for de endrignene som Nav skal gjennom de neste årene.
 
 ### Lokalt utviklingsmiljø
 Utviklere kan velge mellom Windows og Mac på laptop, og har friheten til å bruke de lokale verktøyene de liker best til
-utvikling. Enten det måtte være [Visual Studio Code], [IntelliJ] eller [Eclipse]. Det jobbes også med
+utvikling; enten det måtte være [Visual Studio Code], [IntelliJ] eller [Eclipse]. Det jobbes også med
 å forbedre opplevelsen for de som ønsker å utvikler på Linux, her er vi kun noen brannmuråpninger unna å kunne tilby
-en fullgod opplevelse også her.
+en fullgod opplevelse.
 
 ### Kildekode
 Ny programkode i Nav er som default [open source] og ligger på Github. Vi har fortsatt en del lukkede repositories, men er i ferd med 
-å åpne opp disse. I området har vi følgende åpne repositories:
+å åpne opp disse. Pr. i dag har vi følgende åpne repositories:
 
 {% include generated-repos.md %}
 
@@ -88,11 +88,10 @@ Teamene drifter all kode som vi skriver.
 
 Vi har noen applikasjoner som kjører på gamle plattformer slik som WAS, men er i ferd med å migrere 
 disse til [NAIS] som er Navs plattform for å kjøre Docker-kontainere med
-[Kubernetes]. Her har vi tilgang til en moderne stack med monitoreringsverktøy og debuggingverktøy.
+[Kubernetes]. Her har vi tilgang til en moderne stack med debugging- og monitoreringsverktøy.
 Alle nye applikasjoner kjører selvfølgelig på [NAIS]. 
 
-Vi bygger koden vår på Jenkins og deployer derfra. Vi er ikke låst til
-dette flere av applikasjonene våre blir nå bygget på [Github Actions].
+Hovedsaklig så bygger vi og deployer koden vår fra Jenkins, men vi har ikke låst oss til dette. Flere av applikasjonene våre blir nå administrert i [Github Actions].
 
 
 ## Kontakt
