@@ -16,7 +16,7 @@ Området er fordelt på 10 produktteam som jobber med med løsningene for [alder
 * PenRegler - jobber med regelimplementasjon for alderspensjon og uføretrygd, skriver om regelmotor fra [Blaze Advisor] til [Kotlin]
 * Supplerende stønad - innføre nye regler og systemløsning for [supplerende stønad til uføre flyktninger]
 * Samhandling - utvikler og forvalter tjenester mellom NAV, [tjenestepensjonsordninger] og andre eksterne samhandlere
-* Selvbetjening - jobber med selvbetjeningsapplikasjonene [din pensjon] og 
+* Selvbetjening - jobber med selvbetjeningsapplikasjonene [din pensjon] og [din uføretrygd]
 
 Arbeidet ble startet i 2006 i forbindelse med [pensjonsreformen], og 
 utvidet med løsninger for uføretrygd i 2015 som en del av [uførereformen]. Pensjon har
