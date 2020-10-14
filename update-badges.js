@@ -5,7 +5,8 @@ const run = async (org, teamSlug) => {
   try {
     const members = await octokit.teams.listMembersInOrg({
       org: org,
-      team_slug: teamSlug
+      team_slug: teamSlug,
+	  per_page: 100
     });
     const badges = [];
     members.data.forEach(member => {
