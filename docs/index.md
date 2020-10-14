@@ -63,7 +63,7 @@ er helt essensielt for de endrignene som Nav skal gjennom de neste årene.
 ### Lokalt utviklingsmiljø
 Utviklere kan velge mellom Windows og Mac på laptop, og har friheten til å bruke de lokale verktøyene de liker best til
 utvikling; enten det måtte være [Visual Studio Code], [IntelliJ] eller [Eclipse]. Det jobbes også med
-å forbedre opplevelsen for de som ønsker å utvikler på Linux, her er vi kun noen brannmuråpninger unna å kunne tilby
+å forbedre utvikleropplevelsen for de som ønsker å utvikle på Linux. Vi kun noen brannmuråpninger unna å kunne tilby
 en fullgod opplevelse.
 
 ### Kildekode
