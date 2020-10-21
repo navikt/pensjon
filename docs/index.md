@@ -1,10 +1,10 @@
 ---
-title: Produktområde pensjon i Nav
+title: Produktområde pensjon i NAV
 vimeoId: 373391229
 ---
 {% include header-scripts.html %}
 
-## Produktområde Pensjon i Nav
+## Produktområde Pensjon i NAV
 Området er fordelt på 10 produktteam som jobber med med løsningene for [alderspensjon] og [uføretrygd]:
 
 * Paraply PDL - ta i bruk den nye [persondataløsningen] på pensjonsområdet
@@ -20,34 +20,34 @@ Området er fordelt på 10 produktteam som jobber med med løsningene for [alder
 
 Arbeidet ble startet i 2006 i forbindelse med [pensjonsreformen], og 
 utvidet med løsninger for uføretrygd i 2015 som en del av [uførereformen]. Pensjon har
-gått inn som en permanent del av produktområdestrukturen i Nav fra
+gått inn som en permanent del av produktområdestrukturen i NAV fra
 juni 2020 og er en viktig del av NAV og velferdsstaten.
 
 ### Organisasjonen blir stadig smidigere
-Nav har har gått fra å være kjent for sine store IT-fiaskoer til å bli
-ansett av mange som en av de plassene det skjer i Norsk IT-bransje. Vi
+NAV har har gått fra å være kjent for sine store IT-fiaskoer til å bli
+ansett av mange som en av de plassene der det skjer i Norsk IT-bransje. Vi
 liker å tro at det er på grunn av den kursen vi har satt. Innenfor
 pensjonsområdet prøver vi så godt det lar seg gjøre å leve opp til
 denne visjonen igjennom:
 
-1. Fremtidsrettet organisering (smidige produktteam, istedenfor prosjekter)
+1. Fremtidsrettet organisering (smidige produktteam istedenfor prosjekter)
 2. Fremtidsrettet teknologi (kontinuerlig deployment med Docker + Kubernetes, mikrotjenester, hendelsesdrevet)
 3. Ansvarlig bruk av de dataene vi har tilgjengelig
-4. Ett klart samfunnsoppdrag som både er lett å forstå og lett å måle
+4. Et klart samfunnsoppdrag som både er lett å forstå og lett å måle
 
 Se hvordan IT-utviklingen i NAV har satt kursen i retning fra tungrodde og
 kostbare IT-systemer til smidige løsninger: <https://memu.no/artikler/it-losninger-i-rekordfart-hadde-ikke-gatt-for-to-ar-siden/>
 
 ### Hvem er vi?
-Teamene har en tverrfaglig sammensetning med av domeneeksperter, designere,
-utviklere og produkteiere. Rundt teamene har vi ett støtteapparat som sørger
-for økonomi, kommunikasjon og andre funksjoner for å supportere produktteamene.
+Teamene har en tverrfaglig sammensetning av domeneeksperter, designere,
+utviklere og produkteiere. Rundt teamene har vi et støtteapparat som sørger
+for økonomi, kommunikasjon og andre funksjoner for å støtte produktteamene.
 
-Vi er en god blanding av folk med forskjellig bakgrunn, alder og kjønn.
+Vi er en god blanding av folk .
 
-Vi har en blanding av innleide konsulenter og Nav-ansatte. Av de 57 utviklerne våre, er 25 in-house, og det
-blir stadig vekk flere. Vi rekrutterer i disse dager flere utviklere direkte til området og håper å finne
-flere som ønsker å jobbe for at Nav får eierskap i egne applikasjoner og systemer.
+Vi har en blanding av innleide konsulenter og NAV-ansatte, med forskjellig bakgrunn, alder og kjønn. Av de 57 utviklerne våre, er 25 in-house, og det
+blir stadig flere. Vi rekrutterer i disse dager flere utviklere direkte til området og håper å finne
+flere som ønsker å jobbe for at NAV får enda større eierskap til egne applikasjoner og systemer.
 
 ### Kontorlokaler
 I disse dager så jobber vi som de fleste andre i Oslo-området på hjemmekontor.  
@@ -57,17 +57,16 @@ Vi har kontorer i [Sannergata 2] øverst på Grunerløkka med kort vei til [ver
 kaffe] og en rekke vannhull. 
 
 ## Utvikleropplevelse
-Utvikleropplevelse har fokus, noe som gjenspeiler at Nav satser på IT i betydningen at in-house IT-utvikling
-er helt essensielt for de endrignene som Nav skal gjennom de neste årene.
+Vi tror at utviklere trives best når de får mulighet til i stor grad selv bestemme over sine egen arbeidshverdag og vi mener at 
+det å bygge opp et internt miljø med egenansatte utviklere er helt essensielt for de endrignene som NAV skal gjennom de neste årene.
 
 ### Lokalt utviklingsmiljø
-Utviklere kan velge mellom Windows og Mac på laptop, og har friheten til å bruke de lokale verktøyene de liker best til
-utvikling; enten det måtte være [Visual Studio Code], [IntelliJ] eller [Eclipse]. Det jobbes også med
-å forbedre utvikleropplevelsen for de som ønsker å utvikle på Linux. Vi kun noen brannmuråpninger unna å kunne tilby
-en fullgod opplevelse.
+Vi etterstreber stor valgfrihet når det kommer til utstyr og utviklingsmiljø. I dag kan man velge mellom Windows eller macOS og vi er kun 
+noen brannmuråpninger unna å også kunne tilby Linux. Utviklingsmiljøet og andre verktøy er også opp til utvikleren selv, 
+enten det måtte være [Visual Studio Code], [IntelliJ] eller [Eclipse].
 
 ### Kildekode
-Ny programkode i Nav er som default [open source] og ligger på Github. Vi har fortsatt en del lukkede repositories, men er i ferd med 
+Ny kildekode i NAV er som default [open source] og ligger på GitHub. Vi har fortsatt en del lukkede repositories, men er i ferd med 
 å åpne opp disse. Pr. i dag har vi følgende åpne repositories:
 
 {% include generated-repos.md %}
@@ -87,7 +86,7 @@ Vi er i ferd med å legge over til kontinuerlige leveranser for alle applikasjon
 Teamene drifter all kode som vi skriver.
 
 Vi har noen applikasjoner som kjører på gamle plattformer slik som WAS, men er i ferd med å migrere 
-disse til [NAIS] som er Navs plattform for å kjøre Docker-kontainere med
+disse til [NAIS] som er NAVs plattform for å kjøre Docker-kontainere med
 [Kubernetes]. Her har vi tilgang til en moderne stack med debugging- og monitoreringsverktøy.
 Alle nye applikasjoner kjører selvfølgelig på [NAIS]. 
 
@@ -95,7 +94,7 @@ Hovedsaklig så bygger vi og deployer koden vår fra Jenkins, men vi har ikke l�
 
 
 ## Kontakt
-Hvis du lurer på noe ang. området ta gjerne kontakt med [Kjersti] eller
+Hvis du lurer på noe angående området ta gjerne kontakt med [Kjersti] eller
 [Erik]. Eller kanskje du kjenner noen andre som jobber hos oss?
 Moderniseringen av velferdsstaten går i en rivende fart og vi
 jobber hver dag for å bygge [det som betyr noe].
