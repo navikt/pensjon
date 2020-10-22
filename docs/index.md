@@ -43,8 +43,6 @@ Teamene har en tverrfaglig sammensetning av domeneeksperter, designere,
 utviklere og produkteiere. Rundt teamene har vi et støtteapparat som sørger
 for økonomi, kommunikasjon og andre funksjoner for å støtte produktteamene.
 
-Vi er en god blanding av folk .
-
 Vi har en blanding av innleide konsulenter og NAV-ansatte, med forskjellig bakgrunn, alder og kjønn. Av de 57 utviklerne våre, er 25 in-house, og det
 blir stadig flere. Vi rekrutterer i disse dager flere utviklere direkte til området og håper å finne
 flere som ønsker å jobbe for at NAV får enda større eierskap til egne applikasjoner og systemer.
