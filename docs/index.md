@@ -7,7 +7,7 @@ vimeoId: 373391229
 ## Produktområde Pensjon i NAV
 Området er fordelt på 10 produktteam som jobber med med løsningene for [alderspensjon] og [uføretrygd]:
 
-* Paraply PDL - ta i bruk den nye [persondataløsningen] på pensjonsområdet
+* Paraply PDL - ta i bruk den nye persondataløsningen på pensjonsområdet
 * Pensak Batch - utvikling og drift av automatiske jobber
 * EESSI Pensjon - forvalter og videreutvikler løsninger for støtte til saksbehandling av pensjon- og uføresaker med EØS-knytning
 * Pensjonsbrev - ansvar for informasjon til brukerne via analog og digital post
